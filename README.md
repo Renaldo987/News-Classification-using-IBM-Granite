@@ -5,6 +5,7 @@
 News Classification using IBM Granite
 
 
+
 **Dataset Model**
 
 Fake News detection dataset
@@ -23,13 +24,16 @@ Dataset Link:
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
 
+
 **Project overview**
 
 Background
+
 In the digital information age, online news has become one of the primary sources of information for the public. However, the rapid spread of information is also accompanied by the rise of fake news, which can mislead readers, damage reputations, and even create social or political instability. A notable example is political demonstrations in Indonesia, where “buzzers” actively disseminated misleading or negative news to influence public opinion, fueling further conflict.
 This phenomenon highlights the urgent need for an automated solution capable of distinguishing real news from fake news. Leveraging large language models such as IBM Granite, which has advanced natural language understanding, provides a strong opportunity to build an accurate, efficient, and scalable news classification system.
 
 Problem Statement
+
 The specific challenges addressed in this project include:
 1. High volume of online news, making manual fact-checking impractical.
 2. Similarity in linguistic patterns between fake and real news, which makes detection challenging.
@@ -37,6 +41,7 @@ The specific challenges addressed in this project include:
 4. Need for integration with modern AI models, enabling zero-shot or few-shot classification without extensive retraining.
 
 Project Objectives
+
 The project aims to:
 1. Develop a news classification system capable of distinguishing real and fake news.
 2. Evaluate the effectiveness of IBM Granite in performing zero-shot classification for news articles.
@@ -44,6 +49,7 @@ The project aims to:
 4. Deliver a framework that can be further extended into real-world applications, such as fact-checking platforms, media monitoring systems, and disinformation detection tools.
 
 Approach
+
 The project is carried out through the following systematic steps:
 1. Data Collection : Using publicly available datasets (True.csv and Fake.csv), each labeled as real (1) or fake (0).
 2. Data Preprocessing :
